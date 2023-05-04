@@ -5,7 +5,7 @@ function somaValores(num1, num2){
 }
 
 var resultado = somaValores(2, 5)
-console.log(resultado);
+console.log('Resultado primeiro exercicio: '+ resultado);
 
 // EXERCICIO 2
 i = 10;
@@ -13,15 +13,24 @@ var j = 1;
 for(var i=1; i < 5; i++) {
   j++;
 }
+console.log('Resultado do segundo exercicio');
 console.log(i);
 console.log(++j);
 
 // EXERCICIO 3
-
+//Esta no word
+console.log('Resultado do terceiro exercicio esta no word');
 
 // EXERCICIO 4
 var arr = [1, 2, 4, 4, 5,6];//VARIAVEL GLOBAL QUE IREI USAR NO EXERCICIO 6
+console.log('Resultado do quarto exercicio');
 console.log(arr.length);
+
+
+
+//EXERCICIO 5
+//Esta no word
+console.log('Resultado do quinto exercicio esta no word');
 
 
 //EXERCICIO 6
@@ -31,6 +40,7 @@ function retornaValor(pos){
 
   return arr[pos]
 }
+console.log('Resultado do sexto exercicio');
 console.log(retornaValor(3));
 
 //EXERCICIO 7
@@ -50,6 +60,6 @@ function encontraValor(arr, valorSomado){
     }
     return null
 }
-
+console.log('Resultado do setimo exercicio');
 console.log(encontraValor (arr, valorSomado));
 
